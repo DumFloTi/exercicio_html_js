@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 640px;
+    margin: 80px auto;
+    width: 100%;
+}
+
+h1{
+    margin-left: 145px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input,
+button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+button{
+    background-color:burlywood;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: rgb(170, 141, 103);
+}
+
+.error-message {
+    font-size: 20px;
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
+
+.sucess-message {
+    font-size: 20px;
+    background-color: #27ae60;
+    padding: 16px;
+    color: #fff;
+    display: none;
+}
